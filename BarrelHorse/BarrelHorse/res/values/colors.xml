@@ -1,0 +1,8 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="list_element_background">#009933</color>
+    <color name="rank_color">#FFFFFF</color>
+    <color name="player_name_color">#FFFF00</color>
+
+</resources>

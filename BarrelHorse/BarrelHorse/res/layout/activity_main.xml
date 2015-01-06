@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:alpha="0.75"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.barrelhorse.MainActivity" >
+
+    <ImageButton
+        android:id="@+id/imageButtonSetting"
+        android:layout_width="110dp"
+        android:layout_height="110dp" 
+        android:layout_below="@+id/imageButtonHelp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="10dp"
+        android:onClick="ShowSettings"
+        android:src="@drawable/settings" />
+    
+    
+    <ImageButton
+        android:id="@+id/imageButtonHelp"
+        android:layout_width="110dp"
+        android:layout_height="110dp" 
+        android:layout_below="@+id/imageButtonScores"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_marginTop="10dp"
+        android:onClick="ShowInfo"
+        android:src="@drawable/guide" />
+
+    <ImageButton
+        android:id="@+id/imageButtonScores"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/imageButtonPlay"
+        android:layout_marginTop="10dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:onClick="ShowHighScores"
+        android:src="@drawable/high_score" />
+
+    <ImageButton
+        android:id="@+id/imageButtonPlay"
+        android:layout_width="110dp"
+        android:layout_height="110dp"
+        android:onClick="PlayGame"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/play" />
+    
+</RelativeLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/list_element_background"
+    >
+
+      <ImageView
+        android:id="@+id/trophy"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_margin="6dp"
+        android:layout_alignParentLeft="true"
+        />
+    
+    <TextView
+        android:id="@+id/rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:text="1"
+        android:layout_toRightOf="@+id/trophy"
+        android:textStyle="bold"
+        android:textColor="@color/rank_color"
+ 		android:textSize="17sp"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/rank"
+        android:layout_marginLeft="20dp"
+        android:text="Gaurav"
+        android:textColor="@color/player_name_color"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="09:15:25"
+        android:layout_marginRight="30dp"
+        android:textColor="@color/rank_color"
+        android:textSize="17sp"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="10dp"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="barrel_colors">
+        <item>BLACK</item>
+        <item>RED</item>
+        <item>BLUE</item>
+        <item>MAGENTA</item>
+    </string-array>
+    
+    <string-array name="barrel_size">
+        <item>MEDIUM</item>
+    	<item>SMALL</item>
+        <item>LARGE</item>
+    </string-array>
+    
+	<string-array name="speed_levels">
+        <item>NORMAL</item>
+        <item>FAST</item>
+    </string-array>
+
+	</resources>
